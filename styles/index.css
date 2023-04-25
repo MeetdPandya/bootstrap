@@ -1,0 +1,97 @@
+main {
+    background-color: lightgray;
+    padding-bottom: 20px;
+}
+
+.todays-picks {
+    display: grid;
+    grid-template-rows: 80px 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.tp-blog-cards {
+    display: grid;
+    grid-template-columns: 400px 400px 1fr;
+    column-gap: 20px;
+}
+
+.tp-small-blog-cards {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.tp-big-blog-card {
+    display: grid;
+    grid-template-rows: 230px 130px 20px;
+}
+
+.big-blog-card-img {
+    width: 400px;
+}
+
+.big-blog-card-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 140px;
+}
+
+.big-blog-card-title {
+    font-size: 36px;
+    margin: 0;
+}
+
+.author-name {
+    font-size: 20px;
+}
+
+.tp-small-blog-card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+    height: 205px;
+}
+
+.tp-small-blog-card-img-div img {
+    width: 250px;
+    height: 170px
+}
+
+.tp-small-blog-card-info {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 30px;
+}
+
+.tp-small-blog-card-title {
+    font-size: 26px;
+}
+
+.blog-category {
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    row-gap: 20px;
+}
+
+.category-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.category-card {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    column-gap: 20px;
+}
+
+.category-card-img img {
+    width: 150px;
+}
+
+.category-card-info {
+    display: grid;
+    grid-template-rows: 70px 1fr;
+}
