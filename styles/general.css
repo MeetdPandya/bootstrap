@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: pink;
+}
+
+#logo {
+    margin-left: 15px;
+    background-color: red;
+}
+
+#category-links {
+    margin-right: 15px;
+    background-color: gray;
+}
+
+#category-links p {
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+footer {
+    padding: 15px 0px 0px 80px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+
+#about-footer {
+    display: grid;
+    grid-template-rows: 20px 1fr 100px;
+    row-gap: 30px;
+}
+
+#social-links a {
+    margin-right: 10px;
+}
+
+#contact {
+    display: grid;
+    grid-template-rows: 30px 1fr;
+}
+
+.footer-text {
+    font-size: 24px;
+}
+
+#contact-links p {
+    line-height: 12px;
+}
