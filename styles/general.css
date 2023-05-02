@@ -7,12 +7,18 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: pink;
+    background-color: white;
+    height: 64px;
 }
 
 #logo {
     margin-left: 15px;
-    background-color: red;
+    background-color:white;
+   
+}
+
+#logo img{
+    height: inherit;
 }
 
 #category-links {
