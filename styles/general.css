@@ -14,7 +14,7 @@ header {
 #logo {
     margin-left: 15px;
     background-color:white;
-   
+   height: inherit;
 }
 
 #logo img{
@@ -23,7 +23,7 @@ header {
 
 #category-links {
     margin-right: 15px;
-    background-color: gray;
+    background-color: #ffffff;
 }
 
 #category-links p {
@@ -33,7 +33,7 @@ header {
 
 footer {
     padding: 15px 0px 0px 80px;
-    background-color: black;
+    background-color: #252525;
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -57,6 +57,10 @@ footer {
 
 .footer-text {
     font-size: 24px;
+}
+
+.footer-text img{
+    height: 50px;
 }
 
 #contact-links p {

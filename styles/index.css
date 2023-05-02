@@ -13,8 +13,8 @@ main {
 
 .tp-blog-cards {
     display: grid;
-    grid-template-columns: 400px 400px 1fr;
-    column-gap: 20px;
+    grid-template-columns: 5fr 5fr 2fr;
+    column-gap: 10px;
 }
 
 .tp-small-blog-cards {
@@ -65,7 +65,7 @@ main {
 }
 
 .tp-small-blog-card-title {
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .blog-category {
